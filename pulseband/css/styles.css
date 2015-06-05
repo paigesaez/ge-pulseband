@@ -1,0 +1,38 @@
+/*//////////// CUSTOM STYLES FOR PULSEBAND
+
+AUTHOR: PAIGE SAEZ
+DATE CREATED:
+DATE MODIFIED:
+
+//////////// */
+
+
+/*//////
+*/
+
+body { padding-top: 70px; }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/*CUSTOM QUERY CSS HERE
+*/
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+/*CUSTOM QUERY CSS HERE
+*/
+
+}
+
