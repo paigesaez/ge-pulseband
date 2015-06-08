@@ -15,16 +15,6 @@ font-family: 'Lato', sans-serif;
 color: #262b30;
 }
 
-.red {
-  border: 1px solid red;
-}
-
-.blue {
-  border: 1px solid blue;
-}
-.green {
-  border: 1px solid green;
-}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -33,51 +23,46 @@ h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   letter-spacing: .02em;
-  margin-bottom: 20px;
+  margin: 1.3em 0 .5em 0;
+  line-height: 1.3em;
 }
 
 h1 {
-font-size: 4em;
-line-height: 1.3em;
-margin-bottom: 1em;
+font-size: 3.5em;
+/* line-height: 1.3em; */
 }
 
 h2 {
 font-size: 3em;
 line-height: 1.3em;
-margin: 2em 0 2em 0;
-}
-
-h3 {
-}
-
-h4 {
 }
 
 p {
   font-size: 1.4em;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: .02em;
-  line-height: 24px;
+  line-height: 1.3em;
+  margin-bottom: 1.3em;
 }
- article {
+
+a {
+color: #262b30;
+}
+
+article {
   padding-bottom: 2em;
  }
-
-.klp {
-padding-left: 0;
-}
 
 .navbar {
 height: 70px;
 }
-  a.brand {
-  background-image:url('../img/pulsebandLogo.svg');
-  background-repeat: no-repeat;
-  width: 57px;
-  height: 55px;
-  /* padding-top: 10px; */
-  background-position: 8px 9px;
+
+a.brand {
+background-image:url('../img/pulsebandLogo.svg');
+background-repeat: no-repeat;
+width: 57px;
+height: 55px;
+background-position: 8px 9px;
 }
 
 .hero, .features, .data-tracking, .insights, .specifications, footer {
@@ -92,7 +77,7 @@ HERO SECTION 1
 //////////////
 */
 .hero {
-color: #ffffff;
+color: #fdfdfd;
 height: 55em;
 width: 100%;
 background-image:url(../img/bg-lighter.jpg);
@@ -108,6 +93,24 @@ background-size: cover;
   margin-top: 2em;
 }
 
+.read-more {
+  border: 2px solid #fdfdfd;
+  background-color: transparent;
+  color: #fdfdfd;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 8px 23px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.read-more:hover {
+  border: 2px solid #fdfdfd;
+  background-color: #fdfdfd;
+  font-weight: 600;
+  color: rgb(45, 64, 124);
+}
 
 /*//////////////
 
@@ -118,14 +121,19 @@ FEATURES SECTION 2
 
 .features {
 background:rgb(40, 70, 102);
-color: #ffffff;
-height: 94em;
+background-image:url(../img/grid.png);
+color: #fdfdfd;
+height: 104em;
 }
 
 .ekg-animation, .detection-animation, .bp-animation {
   border: red 1px solid;
   height: 100px;
   margin: 20px 0;
+}
+
+.ekgu {
+  text-transform: uppercase;
 }
 
 /*//////////////
@@ -137,7 +145,7 @@ DATA-TRACKING SECTION 3
 
 
 .data-tracking {
-height: 74em;
+height: 80em;
 }
 
 ul.data-tracking {
@@ -147,11 +155,20 @@ text-decoration: none;
 .steps, .hours {
   border: red 1px solid;
   height: 100px;
+  /* padding-left: 0; */
+  text-transform: uppercase;
 }
 
 li.steps-taken, li.hours-slept {
-line-height: 1em;
+line-height: 1.3em;
 margin-bottom: none;
+font-weight: 600;
+letter-spacing: .05em;
+}
+
+.hr, .min {
+  font-size: .7em;
+  text-transform: none;
 }
 
 li.count {
@@ -169,8 +186,16 @@ INSIGHTS SECTION 4
 */
 
 .insights {
-height: 60em;
-background-color: yellow;
+height: 72em;
+color: #fdfdfd;
+width: 100%;
+background-color: #000;
+background-image:url(../img/bg-darker.jpg);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 
@@ -182,8 +207,15 @@ SPECIFICATIONS SECTION 5
 */
 
 .specifications {
-height: 60em;
-background-color: purple;
+height: 82em;
+color: #fdfdfd;
+background:rgb(40, 70, 102);
+background-image:url(../img/grid.png);
+background-repeat: repeat;
+}
+
+ul li {
+  font-size: 1.3em;
 }
 
 .band-animation {
@@ -199,11 +231,39 @@ FOOTER SECTION 6
 */
 
 footer {
-height: 30em;
-background-color: blue;
+height: 82em;
 }
 
+.newsletter h2 {
+  text-transform: uppercase;
+}
 
+.newsletter input {
+   border: 2px solid #262b30;
+  background-color: transparent;
+  color: #262b30;
+  font-size: 1.3em;
+  border-radius: 0;
+  letter-spacing: .05em;
+  height: 50px;
+
+}
+
+.newsletter .submit {
+  border: 2px solid #262b30;
+  background-color: transparent;
+  color: #262b30;
+  font-size: 1.3em;
+  border-radius: 0;
+  padding: 8px 63px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.newsletter .submit:hover {
+  background-color: #262b30;
+  color: #fdfdfd;
+  }
 
 
 /* Small devices (tablets, 768px and up) */
