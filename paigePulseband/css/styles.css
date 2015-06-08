@@ -1,0 +1,246 @@
+/*//////////// CUSTOM STYLES FOR PULSEBAND
+
+AUTHOR: PAIGE SAEZ
+DATE CREATED:
+DATE MODIFIED:
+
+//////////// */
+
+
+/*//////
+*/
+
+body { padding-top: 70px;
+font-family: 'Lato', sans-serif;
+color: #262b30;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+.green {
+  border: 1px solid green;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: .02em;
+  margin-bottom: 20px;
+}
+
+h1 {
+font-size: 4em;
+line-height: 1.3em;
+margin-bottom: 1em;
+}
+
+h2 {
+font-size: 3em;
+line-height: 1.3em;
+margin: 2em 0 2em 0;
+}
+
+h3 {
+}
+
+h4 {
+}
+
+p {
+  font-size: 1.4em;
+  font-weight: 300;
+  letter-spacing: .02em;
+  line-height: 24px;
+}
+ article {
+  padding-bottom: 2em;
+ }
+
+.klp {
+padding-left: 0;
+}
+
+.navbar {
+height: 70px;
+}
+  a.brand {
+  background-image:url('../img/pulsebandLogo.svg');
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 55px;
+  /* padding-top: 10px; */
+  background-position: 8px 9px;
+}
+
+.hero, .features, .data-tracking, .insights, .specifications, footer {
+  padding-bottom: 3em;
+}
+
+
+/*//////////////
+
+HERO SECTION 1
+
+//////////////
+*/
+.hero {
+color: #ffffff;
+height: 55em;
+width: 100%;
+background-image:url(../img/bg-lighter.jpg);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.hero h4 {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+
+/*//////////////
+
+FEATURES SECTION 2
+
+//////////////
+*/
+
+.features {
+background:rgb(40, 70, 102);
+color: #ffffff;
+height: 94em;
+}
+
+.ekg-animation, .detection-animation, .bp-animation {
+  border: red 1px solid;
+  height: 100px;
+  margin: 20px 0;
+}
+
+/*//////////////
+
+DATA-TRACKING SECTION 3
+
+//////////////
+*/
+
+
+.data-tracking {
+height: 74em;
+}
+
+ul.data-tracking {
+text-decoration: none;
+  }
+
+.steps, .hours {
+  border: red 1px solid;
+  height: 100px;
+}
+
+li.steps-taken, li.hours-slept {
+line-height: 1em;
+margin-bottom: none;
+}
+
+li.count {
+font-size: 2.7em;
+margin-top: -.2em;
+}
+
+
+
+/*//////////////
+
+INSIGHTS SECTION 4
+
+//////////////
+*/
+
+.insights {
+height: 60em;
+background-color: yellow;
+}
+
+
+/*//////////////
+
+SPECIFICATIONS SECTION 5
+
+//////////////
+*/
+
+.specifications {
+height: 60em;
+background-color: purple;
+}
+
+.band-animation {
+/*  height: 30em;*/
+}
+
+
+/*//////////////
+
+FOOTER SECTION 6
+
+//////////////
+*/
+
+footer {
+height: 30em;
+background-color: blue;
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/*CUSTOM QUERY CSS HERE
+*/
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+h1 {
+/*use percentages to increase size ex: font-size 120%;*/
+/*use percentages to increase line height, what else? ex: line-height 120%;*/
+}
+
+h2 {
+/*use percentages to increase size ex: font-size 120%;*/
+}
+
+h3 {
+/*use percentages to increase size ex: font-size 120%;*/
+}
+
+h4 {
+/*use percentages to increase size ex: font-size 120%;*/
+}
+
+p {
+  /*use percentages to increase size ex: font-size 120%;*/
+
+}
+
+
+/*CUSTOM QUERY CSS HERE
+*/
+}
+
