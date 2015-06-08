@@ -123,19 +123,35 @@ FEATURES SECTION 2
 background:rgb(40, 70, 102);
 background-image:url(../img/grid.png);
 color: #fdfdfd;
-height: 104em;
+height: 108em;
 }
 
 .ekg-animation, .detection-animation, .bp-animation {
-  border: red 1px solid;
-  height: 100px;
-  margin: 20px 0;
+  background-image: url('../img/pulse.svg'), url('../img/brackets.svg');
+  background-position: 5em center, center center;
+  background-repeat: no-repeat;
+  background-size: 6em, 90%;
+  /* border: red 1px solid; */
+  height: 7em;
+  margin: 2em 0;
 }
 
 .ekgu {
   text-transform: uppercase;
 }
 
+.ekg-animation p, .detection-animation p, .bp-animation p{
+  text-align: right;
+  margin-top: 0em;
+  padding: 2em;
+}
+
+.circle {
+  border: 3px solid green;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
 /*//////////////
 
 DATA-TRACKING SECTION 3
@@ -231,11 +247,15 @@ FOOTER SECTION 6
 */
 
 footer {
-height: 82em;
+height: 72em;
 }
 
 .newsletter h2 {
   text-transform: uppercase;
+}
+
+.newsletter form {
+  margin-top: 3em;
 }
 
 .newsletter input {
@@ -244,7 +264,6 @@ height: 82em;
   color: #262b30;
   font-size: 1.3em;
   border-radius: 0;
-  letter-spacing: .05em;
   height: 50px;
 
 }
@@ -255,8 +274,10 @@ height: 82em;
   color: #262b30;
   font-size: 1.3em;
   border-radius: 0;
-  padding: 8px 63px;
-  text-transform: uppercase;
+  padding: .6em 1em;
+  width: 100%;
+
+    text-transform: uppercase;
   letter-spacing: .05em;
 }
 
