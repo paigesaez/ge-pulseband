@@ -30,7 +30,6 @@ line-height: 1.3em;
 
 .hcenter {
 margin: 4em auto;
-border: 1px solid yellow;
 }
 
 .rmlpadding {
@@ -158,7 +157,6 @@ background-size: cover;
 }
 
 .hero-content {
-  border: 1px solid yellow;
 display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -427,7 +425,7 @@ SPECIFICATIONS SECTION 5
 
 .specifications {
 color: #fafafa;
-background: rgb(100, 70, 102);
+background: #3B75B4;
 background-image:url(../img/grid.png);
 background-repeat: repeat;
 }
@@ -544,8 +542,25 @@ footer a:hover {
   color: #fafafa;
   }
 
-/*hyphen or camelcase CHOOSE
-*/
+input::-webkit-input-placeholder {
+   color: #fff;
+}
+
+::-webkit-input-placeholder {
+ color: #fff;
+}
+
+:-moz-placeholder { /* older Firefox*/
+ color: #fff;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+ color: #fff;
+}
+:-ms-input-placeholder {
+ color: #fff;
+}
+
 
 .first-row, .second-row {
   padding-left: 0;
@@ -753,11 +768,9 @@ font-size: 2em;
 
 .band-animation {
   background-size: 90%;
-  background-position: center center;
+  background-position: center left;
   height: 45em;
 }
-
-
 
 .newsletter h2 {
   font-size: 2.4em;
@@ -770,6 +783,8 @@ font-size: 2em;
 
 /*////////End custom styles 768px*/
 }
+
+
 
 /* //////////////////////////////////
 //////////////////////////////////
@@ -788,10 +803,7 @@ Medium devices (desktops, 992px and up)
 
 .hcenter {
 margin: 6em auto;
-border: 1px solid yellow;
-}
-
-p {
+/*border: 1px solid yellow;*/
 }
 
 h2 {
@@ -879,9 +891,6 @@ height: 86em;
 
 
 .ekg, .detection, .bp {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100%;
   height: 15em;
   max-width: 16em;
   margin: 0;
@@ -894,7 +903,7 @@ height: 86em;
 */
 
 .data-tracking {
-height: 66em;
+height: 68em;
 }
 
 .data-pulseband {
@@ -926,7 +935,7 @@ height: 12.2em;
 */
 
 .insights {
-height: 81em;
+height: 85em;
 }
 
 .insights h2 {
@@ -960,7 +969,7 @@ height: 81em;
 */
 
 .specifications {
-height: 67em;
+height: 69em;
 
 }
 
@@ -978,9 +987,9 @@ height: 56em;
 
 .newsletter h2 {
   font-size: 2.3em;
-  background-position: center -1em;
-  height: 6em;
-  background-size: 8em;
+  background-position: center 0em;
+  height: 7em;
+  background-size: 6em;
   padding-top: 4.6em;
 }
 
