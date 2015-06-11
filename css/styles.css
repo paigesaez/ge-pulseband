@@ -8,15 +8,15 @@ DATE MODIFIED:
 /*//////
 */
 
-/* off-white #fdfdfd;*/
-/* off-black #262b30;*/
+/* off-white #fafafa;*/
+/* off-black #363636;*/
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 body {
 font-family: 'Lato', sans-serif;
-color: #262b30;
+color: #363636;
 font-weight: 300;
 letter-spacing: .05em;
 }
@@ -82,7 +82,7 @@ NAVIGATION
 */
 
 .navbar {
-color: #fdfdfd;
+color: #fafafa;
 height: 4.5em;
 font-family: 'Oswald', sans-serif;
 }
@@ -92,7 +92,7 @@ height: 4.5em;
 }
 
 .navbar li a {
-color: #fdfdfd;
+color: #fafafa;
 font-size: 1.5em;
 background-color: #ccc;
 }
@@ -128,8 +128,8 @@ display: block;
 }
 
 .btn.buy-now.btn-white {
-  color: #fdfdfd;
-  border: 2px solid #fdfdfd;
+  color: #fafafa;
+  border: 2px solid #fafafa;
   font-size: 1.2em;
   margin: .5em 0;
   padding: .5em 2em;
@@ -146,7 +146,7 @@ HERO SECTION 1
 */
 
 .hero {
-color: #fdfdfd;
+color: #fafafa;
 height: 69em;
 width: 100%;
 background-image:url(../img/bg-lighter.jpg);
@@ -170,7 +170,7 @@ display: -webkit-box;
 
 .hero-copy {
     text-align: right;
-    color: #fdfdfd;
+    color: #fafafa;
 }
 
 .hero h4 {
@@ -195,8 +195,8 @@ margin-bottom: 1em;
 }
 
 .btn.buy-now.btn-white:hover {
-  border: 2px solid #fdfdfd;
-  background-color: #fdfdfd;
+  border: 2px solid #fafafa;
+  background-color: #fafafa;
   color: rgb(45, 64, 124);
 }
 
@@ -223,7 +223,7 @@ FEATURES SECTION 2
 .features {
 background:rgb(40, 70, 102);
 background-image:url(../img/grid.png);
-color: #fdfdfd;
+color: #fafafa;
 }
 
 .ekg, .detection, .bp {
@@ -286,17 +286,15 @@ DATA-TRACKING SECTION 3
 //////////////
 */
 
-
-.data-tracking {
-}
-
 .pulsebandData {
   background-image: url('../img/pulsebandData.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 90%;
   height: 18em;
+}
 
+.data-tracking h3 {
 }
 
 .get-moving, .well-rested {
@@ -347,6 +345,7 @@ background-image: url('../img/well-rested.svg');
   margin-bottom: 0px;
   line-height: 5em;
   height: 3.4em;
+  margin-top: 0;
   letter-spacing: .03em;
 }
 
@@ -384,7 +383,7 @@ INSIGHTS SECTION 4
 */
 
 .insights {
-color: #fdfdfd;
+color: #fafafa;
 width: 100%;
 background-color: #000;
 background-image:url(../img/bg-darker.jpg);
@@ -427,7 +426,7 @@ SPECIFICATIONS SECTION 5
 */
 
 .specifications {
-color: #fdfdfd;
+color: #fafafa;
 background: rgb(100, 70, 102);
 background-image:url(../img/grid.png);
 background-repeat: repeat;
@@ -460,7 +459,7 @@ FOOTER SECTION 6
 
 footer {
 background: #212A34;
-color: #fdfdfd;
+color: #fafafa;
 }
 
 footer ul {
@@ -480,7 +479,7 @@ footer ul li:last-child {
 }
 
 footer a, footer a:visited {
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 footer a:hover {
@@ -519,9 +518,9 @@ footer a:hover {
 }
 
 .newsletter input {
-   border: 2px solid #fdfdfd;
+   border: 2px solid #fafafa;
   background-color: transparent;
-  color: #fdfdfd;
+  color: #fafafa;
   font-size: 1.3em;
   border-radius: 0;
   height: 50px;
@@ -529,9 +528,9 @@ footer a:hover {
 }
 
 .newsletter .submit {
-  border: 2px solid #fdfdfd;
+  border: 2px solid #fafafa;
   background-color: transparent;
-  color: #fdfdfd;
+  color: #fafafa;
   font-size: 1.3em;
   border-radius: 0;
   padding: .6em 1em;
@@ -541,8 +540,8 @@ footer a:hover {
 }
 
 .newsletter .submit:hover {
-  background-color: #fdfdfd;
-  color: #fdfdfd;
+  background-color: #fafafa;
+  color: #fafafa;
   }
 
 /*hyphen or camelcase CHOOSE
