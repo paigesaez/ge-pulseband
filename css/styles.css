@@ -470,9 +470,9 @@ footer ul {
 footer ul li {
   display: inline-block;
   list-style: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 2em;
-  padding: 0 1em 0 0;
+  padding: 0 .3em;
 }
 
 footer ul li:last-child {
@@ -492,16 +492,26 @@ footer a:hover {
   margin-bottom: 2em;
 }
 
-.newsletter h2 {
+.newsletter .mail {
   background-image: url('../img/mail.svg');
   background-repeat: no-repeat;
-  background-size: 17em;
-  text-transform: uppercase;
-  font-size: 1.7em;
+  border:  1px solid red;
+  background-position: 2em center;
+  height: 6em;
+  /* width: 100%; */
+  background-size: 29em;
+}
+
+.newsletter h2 {
+  font-size: 1.4em;
   text-align: center;
-  background-position: center -6em;
-  padding: 4.6em 0 1.3em 0;
-  margin-top: 0em;
+  text-transform: uppercase;
+  background-image: url('../img/mail.svg');
+  background-repeat: no-repeat;
+  background-position: center -1em;
+  height: 5em;
+  background-size: 7em;
+  padding-top: 4em;
 }
 
 .newsletter form {
@@ -540,6 +550,8 @@ footer a:hover {
 
 .first-row, .second-row {
   padding-left: 0;
+  padding-right: 0;
+  text-align: center;
 }
 
 .social-links {
@@ -745,6 +757,17 @@ font-size: 2em;
   background-position: center center;
   height: 45em;
 }
+
+
+
+.newsletter h2 {
+  font-size: 2.4em;
+  background-position: center -1em;
+  height: 5em;
+  background-size: 7em;
+  padding-top: 4.2em;
+}
+
 
 /*////////End custom styles 768px*/
 }
@@ -955,20 +978,17 @@ height: 56em;
 }
 
 .newsletter h2 {
-  /* background-image: url('../img/mail.svg'); */
-  /* background-repeat: no-repeat; */
-  /* background-size: 17em; */
-  /* text-transform: uppercase; */
-  font-size: 2.7em;
-  /* text-align: center; */
-  background-position: center -7em;
-  padding: 3.3em 0 0em 0;
-  /* margin-top: 0em; */
+  font-size: 2.3em;
+  background-position: center -1em;
+  height: 6em;
+  background-size: 8em;
+  padding-top: 4.6em;
 }
 
 .newsletter form {
   margin-top: 1em;
 }
+
 
 /* END 992px MEDIA QUERY CSS
 */
@@ -985,14 +1005,12 @@ Large devices (desktops, >1200px and up)
 //////////////////////////////////*/
 @media (min-width: 1200px) {
 
-
 /*//////////////
 
 1200px GLOBAL SECTION 0
 
 //////////////
 */
-
 
 .ekg, .detection, .bp {
   max-width: 19em;
@@ -1003,8 +1021,13 @@ Large devices (desktops, >1200px and up)
   height: 48em;
 }
 
-
+.first-row, .second-row {
+  text-align: left;
 }
 
+.social-links {
+  text-align: right;
+}
 
-
+/*end 1200px */
+}
