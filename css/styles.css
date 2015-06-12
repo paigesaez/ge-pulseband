@@ -247,7 +247,10 @@ color: #fafafa;
   margin: 1.2em 0;
 }
 
-.ekg .pulse-animation, .detection .pulse-animation, .bp .pulse-animation {
+.ekg .pulse-animation,
+.detection
+.pulse-animation,
+.bp .pulse-animation {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 5em;
@@ -396,7 +399,8 @@ background-size: cover;
 }
 
 .iphone {
-  background-image: url('../img/iphoneBlank.svg'), url('../img/pulsebandInsights.png');
+  background-image: url('../img/iphoneBlank.svg'),
+  url('../img/pulsebandInsights.png');
   background-repeat: no-repeat, no-repeat;
   background-size: 27.5em, 20em;
   background-position: top center,  4.7em 39em;
@@ -516,8 +520,9 @@ footer a:hover {
 
 .newsletter input {
    border: 2px solid #fafafa;
-  background-color: transparent;
-  color: #fafafa;
+
+   background-color: #ccc;
+
   font-size: 1.3em;
   border-radius: 0;
   height: 50px;
@@ -540,26 +545,6 @@ footer a:hover {
   background-color: #fafafa;
   color: #fafafa;
   }
-
-input::-webkit-input-placeholder {
-   color: #fff;
-}
-
-::-webkit-input-placeholder {
- color: #fff;
-}
-
-:-moz-placeholder { /* older Firefox*/
- color: #fff;
-}
-
-::-moz-placeholder { /* Firefox 19+ */
- color: #fff;
-}
-:-ms-input-placeholder {
- color: #fff;
-}
-
 
 .first-row, .second-row {
   padding-left: 0;
