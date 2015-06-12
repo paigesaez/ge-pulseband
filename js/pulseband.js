@@ -1,12 +1,14 @@
 $('body').scrollspy({ target: '#navbar-header' });
 
 
+var sticky = new Waypoint.Sticky({
+  element: $('.navbar')[0]
+});
 
 
 
-//navigation starts @ {bottom:30px, navbar-fixed-bottom}
-//navigation ends @ {bottom:30px, navbar-fixed-top}
 
 
 
-//navigation locks to top at the point where we scroll to features section
+
+

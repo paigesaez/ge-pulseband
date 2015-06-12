@@ -86,11 +86,6 @@ height: 4.5em;
 font-family: 'Oswald', sans-serif;
 }
 
-.navbar-header {
-height: 4.5em;
-bottom: 8em;
-}
-
 .navbar li a {
 color: #fafafa;
 font-size: 1.5em;
@@ -98,10 +93,8 @@ height: 2.5em;
 margin-top: 5px;
 }
 
-
 nav li:active {
 color: red;
-background-color: yellow;
 }
 
 .navbar-right {
@@ -111,7 +104,6 @@ margin-right: 15px;
 a.navbar-brand {
 background-image:url('../img/generalElectric.svg');
 background-repeat: no-repeat;
-/* width: 9.6em; */
 background-size: 2em;
 background-position: 1.6em .3em;
 font-size: 1.6em;
@@ -125,10 +117,25 @@ display: block;
   color: #fafafa;
   border: 2px solid #fafafa;
   font-size: 1.4em;
-  /* margin: .8em 0; */
   padding: 0.5em 2em;
   background-color: transparent;
   margin: .2em 0 0 0;
+}
+
+/*stuck to top styling*/
+
+.stuck {
+position: fixed;
+top: 0;
+background-color: #fafafa;
+}
+
+.stuck .navbar li a {
+color: #363636;
+}
+
+..stuck nav li:active {
+color: red;
 }
 
 
@@ -197,7 +204,6 @@ margin-bottom: 1em;
 
 .scrollArrow {
   width: 100%;
-  border:  1px solid red;
   height: 3em;
 }
 
@@ -806,17 +812,11 @@ h3 {
 //////////////
 */
 
-.navbar-header {
-  border: 1px solid orange;
-}
 
 a.navbar-brand {
 display: none;
 }
 
-.navbar {
-  background-color: transparent;
-}
 
 /*//////////////
 
@@ -826,13 +826,13 @@ display: none;
 */
 
 .hero {
-  height: 56em;
+  height: 57em;
 }
 
 .hero-content {
   flex-direction: row-reverse;
   justify-content: flex-end;
-  height: inherit;
+  height: 33em;
 }
 
 .hero-copy {
@@ -847,18 +847,18 @@ margin-bottom: .5em;
 
 .hero-pulseband {
   width: 50%;
-  height: 45em;
+  height: 33em;
   background-position: left center;
-  background-size: 75%;
+  background-size: 70%;
 }
 
 a#features.arrow {
   display: block;
   background-image: url('../img/yellowArrow.svg');
   background-repeat: no-repeat;
-  background-size: 9em;
+  background-size: 7em;
   height: 5em;
-  margin: -8em  auto;
+  margin: 0em  auto;
   background-position: center center;
 }
 
