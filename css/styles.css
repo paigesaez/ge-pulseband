@@ -19,6 +19,7 @@ font-family: 'Lato', sans-serif;
 color: #363636;
 font-weight: 300;
 letter-spacing: .05em;
+  position: relative;
 }
 
 h1, h2, h3, h4 {
@@ -81,37 +82,31 @@ NAVIGATION
 */
 
 .navbar {
-color: #fafafa;
 height: 4.5em;
 font-family: 'Oswald', sans-serif;
 }
 
 .navbar-header {
 height: 4.5em;
+bottom: 8em;
 }
 
 .navbar li a {
 color: #fafafa;
 font-size: 1.5em;
-background-color: #ccc;
+height: 2.5em;
+margin-top: 5px;
 }
 
-nav li a:focus,
-.nav li a:hover {
-text-decoration: none;
-color: blue;
-background-color: transparent;
+
+nav li:active {
+color: red;
+background-color: yellow;
 }
 
 .navbar-right {
 margin-right: 15px;
 }
-
-.navbar-right li a {
-height: 2.5em;
-margin-top: 5px;
-}
-
 
 a.navbar-brand {
 background-image:url('../img/generalElectric.svg');
@@ -129,9 +124,11 @@ display: block;
 .btn.buy-now.btn-white {
   color: #fafafa;
   border: 2px solid #fafafa;
-  font-size: 1.2em;
-  margin: .5em 0;
-  padding: .5em 2em;
+  font-size: 1.4em;
+  /* margin: .8em 0; */
+  padding: 0.5em 2em;
+  background-color: transparent;
+  margin: .2em 0 0 0;
 }
 
 
@@ -200,6 +197,8 @@ margin-bottom: 1em;
 
 .scrollArrow {
   width: 100%;
+  border:  1px solid red;
+  height: 3em;
 }
 
 a#arrow {
@@ -822,12 +821,16 @@ h3 {
 //////////////
 */
 
+.navbar-header {
+  border: 1px solid orange;
+}
+
 a.navbar-brand {
 display: none;
 }
 
 .navbar {
-  background-color: #ccc;
+  background-color: transparent;
 }
 
 /*//////////////
@@ -838,7 +841,7 @@ display: none;
 */
 
 .hero {
-  height: 63em;
+  height: 56em;
 }
 
 .hero-content {
@@ -853,7 +856,8 @@ display: none;
 }
 
 .hero h1 {
-font-size: 4.6em;
+font-size: 6em;
+margin-bottom: .5em;
 }
 
 .hero-pulseband {
@@ -863,10 +867,14 @@ font-size: 4.6em;
   background-size: 75%;
 }
 
-a#arrow {
-  background-size: 8%;
-  height: 4em;
-  margin: -1em  1em;
+a#features.arrow {
+  display: block;
+  background-image: url('../img/yellowArrow.svg');
+  background-repeat: no-repeat;
+  background-size: 9em;
+  height: 5em;
+  margin: -8em  auto;
+  background-position: center center;
 }
 
 /*//////////////

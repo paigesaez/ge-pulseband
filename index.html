@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="pulseband wearable app by general electric">
     <meta name="author" content="paige saez">
-    <link rel="icon" href="../../favicon.ico">
+
     <title>Introducing the Pulseband by General Electric</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,39 +22,36 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-header">
     <!--     fixed-bottom-navigation-->
     <nav class="navbar navbar-fixed-bottom">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <div class="navbar-header col-lg-12" id="navbar-header">
+              <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-              </button>
+              </button> -->
               <a class="navbar-brand" href="#">Brand</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+           <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Pulseband<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Data-Tracking</a></li>
-                <li><a href="#">Insights</a></li>
-                <li><a href="#">Specs</a></li>
+                <li class="active"><a href="#hero">Pulseband<span class="sr-only">(current)</span></a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#data-tracking">Data-Tracking</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#specifications">Specs</a></li>
                 <li><button type="button" class="btn buy-now btn-white navbar-btn">Buy now $299</button></li>
               </ul>
-              </div><!-- /.navbar-collapse -->
+              <!--</div> /.navbar-collapse -->
             </div>
-          </div>
           </div><!-- /.container -->
         </nav>
         <!--end-navigation-->
-        <section class="hero" "data-section=1">
+        <section class="hero" id="hero" data-section="1">
           <div class="container">
             <div class="row hcenter">
               <div class="hero-content col-xs-12 col-sm-12">
@@ -66,13 +63,13 @@
                 <div class="hero-pulseband col-xs-12 col-sm-12 "></div>
               </div>
             </div>
-<div class="scrollArrow"><a href="#" id="arrow"></a></div>
+<div class="scrollArrow"><a href="#" class="arrow" id="features"></a></div>
 
             </div><!--  /container -->
           </section>
         </div>
         <!-- end of section 1 -->
-        <section class="features" "data-section=2">
+        <section class="features" id="features" data-section="2">
           <div class="container">
             <div class="row hcenter">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -111,7 +108,7 @@
             </div><!--  /container -->
           </section>
           <!-- end of section 2 -->
-          <section class="data-tracking" "data-section=3">
+          <section class="data-tracking" id="data-tracking" data-section="3">
             <div class="container">
               <div class="row hcenter">
                 <div class="col-md-12">
@@ -157,7 +154,7 @@
             </section>
           </div>
           <!-- end of section 3 -->
-          <section class="insights" "data-section=4">
+          <section class="insights" id="insights" data-section="4">
             <div class="container">
               <div class="row hcenter">
                 <div class="col-xs-12">
@@ -179,7 +176,7 @@
             </div> <!-- container -->
           </section>
           <!-- end of section 4 -->
-          <section class="specifications" "data-section=5">
+          <section class="specifications" id="specifications" data-section="5">
             <div class="container">
               <div class="row hcenter">
                 <div class="col-xs-12 col-sm-12">
@@ -290,6 +287,7 @@
           <!-- Placed at the end of the document so the pages load faster -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
           <script src="js/bootstrap.min.js"></script>
+          <script src="js/pulseband.js"></script>
           <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         </body>
       </html>
