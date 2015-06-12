@@ -240,7 +240,7 @@ color: #fafafa;
   align-items: center;
   align-content: center;
   max-width: 22em;
-  margin: 0px 2.5em;
+  margin: 0px 0em;
 }
 
 .ekg p, .detection p, .bp p {
